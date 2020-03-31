@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="oper.js"></script>
+    <meta charset="UTF-8">
+    <title>Google</title>
+</head>
+<body>
+    <main>
+        <div class="calc">             
+            <input type="text" name="input" class="input" id="screen">
+            <ul class="ul-calc">
+                <li class="li-calc">
+                    <button class="numbers" name="" value="7" id="s" onclick="getNumber(7)">7</button>
+                </li>
+                <li class="li-calc">
+                    <button class="numbers" name="" onclick="getNumber(8)">8</button>
+                </li>
+                <li class="li-calc">
+                    <button class="numbers" name="" onclick="getNumber(9)">9</button>
+                </li>
+                <li class="li-calc">
+                    <button class="numbers border" name="" value="/" onclick="getOperation('/')">/</button>
+                </li>
+                <li class="li-calc">
+                    <button class="numbers" name="" onclick="getNumber(4)">4</button>
+                </li>
+                <li class="li-calc">
+                    <button class="numbers" name="" onclick="getNumber(5)">5</button>
+                </li>
+                <li class="li-calc">
+                    <button class="numbers" name="" onclick="getNumber(6)">6</button>
+                </li>
+                <li class="li-calc">
+                    <button class="numbers border" name="" id="d" value="X" onclick="getOperation('X')">X</button>
+                </li>
+                <li class="li-calc">
+                    <button class="numbers" name="" onclick="getNumber(3)">3</button>
+                </li>
+                <li class="li-calc">
+                    <button class="numbers" name="" onclick="getNumber(2)">2</button>
+                </li>
+                <li class="li-calc">
+                    <button class="numbers" name="" onclick="getNumber(1)">1</button>
+                </li>
+                <li class="li-calc">
+                    <button class="numbers border" name=""  value="-" onclick="getOperation('-')">-</button>
+                </li>
+                <li class="li-calc">
+                    <button class="numbers" name="" onclick="getNumber(0)">0</button>
+                </li>
+                <li class="li-calc">
+                    <button class="numbers background-sum" value="=" name="" onclick="compute()">=</button>
+                </li>
+                <li class="li-calc">
+                    <button class="numbers background-c" name="" onclick="clearScreen()">ce</button>
+                </li>
+                <li class="li-calc">
+                    <button class="numbers border" name="" value="+" onclick="getOperation('+')">+</button>
+                </li>
+            </ul>
+        
+        </div>
+    </main>
+    <script>
+
+    </script>
+</body>
+</html>
