@@ -76,6 +76,13 @@
     left: 20px;
     top: 38%;
 }
+.forget-pass {
+	text-align: right;
+	color: #000!important;
+}
+.forget-pass a {
+	color: #000!important;
+}
 .form-v4-content .form-detail .form-row label#valid i {
     color:  #53c83c;
 }
